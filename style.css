@@ -1,0 +1,77 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    /* font-family: 'Outfit', sans-serif; */
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: hsl(275, 100%, 97%);
+}
+
+.outer-card {
+    background-color: white;
+    border-radius: 10px;
+    width: 550px;
+    height: 500px;
+}
+
+
+
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.big-text-heading {
+    margin: 4px;
+    color: hsl(218, 44%, 22%);
+    font-weight: bold;
+    font-size: 48px;
+}
+
+
+
+.bg-image {
+    /* height: 100%;width: 100%; */
+    background-image: url('./assets/images/background-pattern-desktop.svg');
+    background-repeat: repeat;
+    height: 305px;
+    width: 100%;
+}
+.accordian-title{
+font-size:16px;font-weight:bold
+}
+.accordian-title:hover{
+    color:hsl(292, 16%, 49%)
+    }
+@media screen and (max-width:600px) {
+    .bg-image {
+        /* height: 100%;width: 100%; */
+        background-image: url('./assets/images/background-pattern-desktop.svg');
+        background-repeat: repeat;
+        height: 305px;
+        width: 100%;
+    }
+
+    .outer-card {
+        background-color: white;
+        border-radius: 10px;
+        width: 370px;
+        height: 100%
+    }
+
+}
